@@ -6,14 +6,14 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: hiperdev-api
+      app: hiperdev-api-andre
   template:
     metadata:
       labels:
-        app: hiperdev-api
+        app: hiperdev-api-andre
     spec:
       containers:
-      - name: hiperdev-api
+      - name: hiperdev-api-andre
         image: hiperdevcr.azurecr.io/hiperdev
         resources:
           limits:
